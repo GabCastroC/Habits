@@ -24,5 +24,5 @@ function save(){
 
 const data = JSON.parse(localStorage.getItem("NLWSetup@habits")) || {} //caso não tenha nada no JSON, retorne um objeto vazio
 nlwSetup.setData(data)
-nlwSetup.load()
+nlwSetup.load() 
 
